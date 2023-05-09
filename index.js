@@ -36,7 +36,7 @@ async function run() {
       body: `
         Pull request #${pr_number} has be updated with: \n
         - ${diffData.changes} changes \n
-        - ${diffData.additions} additions \n
+        - 0 additions \n
         - ${diffData.deletions} deletions
       `
     });
