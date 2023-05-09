@@ -29,10 +29,6 @@ async function run() {
       return acc;
     }, diffData);
 
-    console.log(diffData.additions)
-    console.log(diffData.changes)
-    console.log(diffData.deletions)
-
     await octokit.rest.issues.createComment({
       owner,
       repo,
@@ -40,9 +36,8 @@ async function run() {
       body: `
         Pull request #${pr_number} has be updated with: \n
         - ${diffData.changes} changes \n
-        - 0 additions \n
+        - ${diffData.additions} additions \n
         - ${diffData.deletions} deletions
-        - asdkajhsdkjashdkashkdj
       `
     });
 
