@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Link-/pr-comment.git"
+    "url": "git+https://github.com/BuiHuynhTrungNamKMS/pr-comment.git"
   },
   "keywords": [
     "GitHub",
@@ -23,9 +23,9 @@
   "author": "Link-",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Link-/pr-comment/issues"
+    "url": "https://github.com/BuiHuynhTrungNamKMS/pr-comment/issues"
   },
-  "homepage": "https://github.com/Link-/pr-comment#readme",
+  "homepage": "https://github.com/BuiHuynhTrungNamKMS/pr-comment#readme",
   "dependencies": {
     "@actions/core": "^1.9.1",
     "@actions/github": "^5.1.0"
